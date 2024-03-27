@@ -1,0 +1,75 @@
+.project-duration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.img-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #171f46;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0px;
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.duration {
+  color: #171f46;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: 5px;
+}
+
+.desc {
+  color: #1e293b;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 0px;
+}
+
+a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  align-self: flex-start;
+  color: #0967d2;
+}
+
+@media screen and (min-width: 768px) {
+  .project-duration-container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .project-title {
+    font-size: 24px;
+  }
+  .duration {
+    font-size: 14px;
+  }
+  .desc {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+}
